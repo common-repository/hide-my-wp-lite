@@ -1,0 +1,73 @@
+tr.upgrade_to_pro td,
+tr.upgrade_to_pro.disable_option_class label.disabled_option,
+tr.upgrade_to_pro.disable_all_option div.disable_options,
+#replaces,
+#ids,
+#source{
+    border: 2px dashed #f38a8a;
+    position: relative;
+    cursor: pointer;
+}
+tr.upgrade_to_pro td:before,
+tr.upgrade_to_pro.disable_option_class label.disabled_option:before,
+tr.upgrade_to_pro.disable_all_option div.disable_options:before{
+    content: "upgrade to Pro";
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #00C6FB;
+    font-weight: bold;
+}
+#replaces,
+#ids,
+#source{
+    padding: 10px;
+}
+#replaces:before,
+#source:before,
+#ids:before{
+    content: "upgrade to Pro";
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    font-size: 16px;
+    color: #00C6FB;
+    font-weight: bold;
+}
+#replaces-tab,
+#ids-tab,
+#source-tab{
+    position: relative;
+    padding-right: 45px;
+}
+#replaces-tab:before,
+#source-tab:before,
+#ids-tab:before{
+    content: "pro";
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-size: 16px;
+    color: #00C6FB;
+    font-weight: bold;
+}
+tr.upgrade_to_pro.disable_option_class td,
+tr.upgrade_to_pro.disable_all_option td{
+    border: medium none;
+}
+tr.upgrade_to_pro.disable_option_class td:before,
+tr.upgrade_to_pro.disable_all_option td:before{
+    content: none;
+}
+tr.upgrade_to_pro.disable_option_class label.disabled_option{
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+tr.upgrade_to_pro.disable_all_option div.disable_options{
+    padding: 10px;
+}
